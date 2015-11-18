@@ -1,6 +1,10 @@
 # MVP Boilerplate
 Fullstack Javascript MVP Boilerplate for creating MVPs quickly with enough room to grow.
 
+## Usage
+`npm start` to start the server.
+`gulp` to compile all assets for production and start the BrowserSync server.
+
 ## Introduction
 This boilerplate uses server rendered views as not everyone wants to create a Single Page Application (SPA).
 For server side views, we're using Jade, the default view engine of Express. If you haven't used Jade before, trust me - give it a try and you'll quickly realise that your views are easier to read & write.
