@@ -20,7 +20,6 @@ var opts = assign({}, watchify.args, customOpts);
 var b = watchify(browserify(opts));
 
 // add transformations here
-
 if (config.jsEs6) {
   b.transform(babelify);
 }
@@ -28,7 +27,7 @@ if (config.jsEs6) {
 function bundle() {
   return b.bundle()
     .on('error', gutil.log.bind(gutil, 'Browserify Error'))
-    .pipe(source('main.bundle.js'))
+    .pipe(source('main.js'))
     .pipe(gulp.dest(config.jsDir))
     .pipe(reload({stream:true}))
     .pipe(notify('JS compilation complete.'));

@@ -4,4 +4,4 @@
 
 var gulp = require('gulp')
 
-gulp.task('default', ['scripts', 'styles'])
+gulp.task('default', ['serve'])

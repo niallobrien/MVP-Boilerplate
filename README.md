@@ -7,7 +7,7 @@ For server side views, we're using Jade, the default view engine of Express. If 
 
 Foundation For Sites and Sass (libsass) are already setup. I prefer Foundation over Bootstrap simply because I find that I fight Foundation less when I've to implement custom designs, but it includes enough basic styles for an MVP. 
 
-Vue.js is used for additional client-side functionality. Its API is easy to learn and as we're not creating SPAs, it's conducive to getting functionality done quickly. I like to create a mini-SPA per route.
+Vue.js is used for additional client-side functionality. Its API is easy to learn and is very conducive to getting functionality done quickly. You can optionally install `Vue-Router` and `Vue-Resource` if you want to take a SPA approach with Vue.
 
 ## Goals
 Easy too modify landing/marketing pages.
